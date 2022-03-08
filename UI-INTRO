@@ -1,0 +1,16 @@
+
+To view the UI:
+cd ui
+npm start
+
+App.js is the main UI page, so take a look at that one. 
+
+Under the title you'll see several hands, the board, and the dealer chip. I've created the necessary UI components, now it's
+just a matter of positioning them on the page.
+
+Every card is represeted by a React component structured like <Card name="4_of_clubs" />
+
+I pretty much just have to handle the money situation now, not sure what we want for UI there.
+
+Every component has its own CSS file
+
