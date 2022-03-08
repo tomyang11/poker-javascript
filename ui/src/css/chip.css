@@ -1,0 +1,18 @@
+.chip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 4px dashed white;
+}
+
+.inner-circle {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px dashed white;
+}
